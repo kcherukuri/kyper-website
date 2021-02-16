@@ -23,6 +23,7 @@ module.exports = {
       },
       maxWidth: {
         '1/10': '10%',
+        '1/6': '16.67%',
         'deviceheight': '421px',
         'devicewidth': '232.77px',
        },
