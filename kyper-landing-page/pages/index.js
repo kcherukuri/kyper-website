@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Kyper</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/mechanical-arm_1f9be.png" />
       </Head>
       <body className="font-body bg-backgroundDark">
         <div className="flex flex-col items-center text-center mx-auto px-5 h-screen">
