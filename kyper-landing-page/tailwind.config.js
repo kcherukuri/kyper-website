@@ -18,6 +18,9 @@ module.exports = {
         'danger': '#e3342f',
         'gradient': 'linear-gradient(135deg, #B4D6F8 0%, #317AC7 52.08%, #1D264D 100%)',
       }),
+      backgroundImage: theme => ({
+      'multiverse': "url('/images/multiverse.jpg')",
+      }),
       scale: {
         '20': '0.20',
       },
