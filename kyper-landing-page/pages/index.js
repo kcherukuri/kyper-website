@@ -8,31 +8,24 @@ export default function Home() {
         <title>Kyper</title>
         <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/mechanical-arm_1f9be.png" />
       </Head>
-      <body className="font-body bg-background">
+      <body className="font-body bg-black">
         <div className="flex flex-col items-center text-center py-8 mx-auto px-5 h-screen">
             <div className="mt-0 max-w-1/6 md:max-w-1/10">
-              <img src="/images/kyperlogoblack.png"/>
+              <img src="/images/kyperlogowhite.png"/>
             </div>
-          <div className="flex flex-1 flex-col items-center justify-center py-2 text-black text-xl text-center md:py-10">
-            {/* <Tilt>
-              <div className="shadow-xl bg-multiverse text-black rounded-xl flex items-center justify-center w-72 h-72">
-                <div className="Text-lg">
-                  VERSE
-                </div>
-              </div>
-            </Tilt> */}
+          <div className="flex flex-1 flex-col items-center justify-center py-2 text-white text-xl text-center md:py-10">
             <Tilt>
-              <img src='/images/multiverse.jpg' className="object-cover shadow-xl bg-multiverse text-black rounded-xl flex items-center justify-center w-72 h-72" />
+              <img src='/images/multiverse.jpg' className="object-cover shadow-xl bg-multiverse text-white rounded-xl flex items-center justify-center w-72 h-72" />
             </Tilt>
             <div className="mt-8 max-w-md text-lg">
-              THE SEARCH PLATFORM FOR CREATORS
+              SEARCH, FOR THE MULTIVERSE
             </div>
             <div className="mt-1 max-w-sm">
               <a href="https://twitter.com/kiranecherukuri"className="text-blue-700 text-sm">FOLLOW THE STORY</a>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center w-full py-5 mb-5 leading-loose font-thin text-center text-xs sm:text-sm">
-            <div className="flex items-center justify-center w-full text-black space-x-4">
+            <div className="flex items-center justify-center w-full text-white space-x-4">
               <div className="flex">
                 <a href="https://twitter.com/kyperneuro" className="hover:text-blue-500">TWITTER</a>
               </div>
