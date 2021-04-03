@@ -69,7 +69,7 @@ export default function Home() {
                 STORY
               </div>
               <div className="mt-1 text-xl text-white font-medium">
-                The Verse Series
+              <a href="https://twitter.com/kiranecherukuri/status/1378178405787648000?s=20" className="hover:text-laserblue">The Story of Verse</a>
               </div>
             </div>
           </div>
