@@ -26,7 +26,7 @@ export default function Home() {
               </div>
               <div className="mt-1">
                 <div className="text-xl text-white font-medium">
-                  <a href="" className="hover:text-laserblue">Supernova</a>
+                  <a href="https://www.notion.so/kyper/Supernova-01a83bb7d3e846978f9873c98d9db213" className="hover:text-laserblue">Supernova</a>
                 </div>
                 {/* <div className="text-sm text-gray-500 font-sans font-medium">
                   The end of the beginning
