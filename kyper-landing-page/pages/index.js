@@ -8,30 +8,74 @@ export default function Home() {
         <title>Kyper</title>
         <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/mechanical-arm_1f9be.png" />
       </Head>
-      <body className="font-body bg-black">
-        <div className="flex flex-col items-center text-center py-8 mx-auto px-5 h-screen">
-            <div className="mt-0 max-w-1/6 md:max-w-1/10">
-              <img src="/images/kyperlogowhite.png"/>
+      <body className="font-sans bg-black">
+        <div className="flex flex-1 flex-col max-w-sm py-8 px-6 h-screen">
+          <div className="flex flex-col">
+            <img src="/images/kyperlogowhite.png" className="max-w-1/5 mb-8"/>
+            <div className="mb-10">
+              <div className="text-xs text-laserblue font-sans font-bold">
+                PRODUCTS
+              </div>
+              <div className="mt-1 text-xl text-white font-semibold">
+                Verse
+              </div>
             </div>
-          <div className="flex flex-1 flex-col items-center justify-center py-2 text-white text-xl text-center md:py-10">
-            <Tilt>
-              <img src='/images/multiverse.jpg' className="object-cover shadow-xl bg-multiverse text-white rounded-xl flex items-center justify-center w-72 h-72" />
-            </Tilt>
-            <div className="mt-8 max-w-md text-lg">
-              SEARCH, FOR THE MULTIVERSE
+            <div className="mb-10">
+              <div className="text-xs text-laserblue font-sans font-bold">
+                THESIS
+              </div>
+              <div className="mt-1">
+                <div className="text-xl text-white font-medium">
+                  <a href="" className="hover:text-laserblue">Supernova</a>
+                </div>
+                {/* <div className="text-sm text-gray-500 font-sans font-medium">
+                  The end of the beginning
+                </div> */}
+              </div>
+              <div className="mt-3">
+                <div className="text-xl text-white font-medium">
+                  Perfect alignment
+                </div>
+              </div>
+              <div className="mt-3">
+                <div className="text-xl text-white font-medium">
+                  Rocket Fuel
+                </div>
+              </div>
+              <div className="mt-3">
+                <div className="text-xl text-white font-medium">
+                  These are not the same
+                </div>
+              </div>
+              <div className="mt-3">
+                <div className="text-xl text-white font-medium">
+                  I'm a business, man!
+                </div>
+              </div>
+              <div className="mt-3">
+                <div className="text-xl text-white font-medium">
+                  NFTs
+                </div>
+              </div>
+              <div className="mt-3">
+                <div className="text-xl text-white font-medium">
+                  Metahopping
+                </div>
+              </div>
+              
             </div>
-            <div className="mt-1 max-w-sm">
-              <a href="https://twitter.com/kiranecherukuri"className="text-blue-700 text-sm">FOLLOW THE STORY</a>
+            <div className="mb-6">
+              <div className="text-xs text-laserblue font-sans font-bold">
+                STORY
+              </div>
+              <div className="mt-1 text-xl text-white font-medium">
+                The Verse Series
+              </div>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center w-full py-5 mb-5 leading-loose font-thin text-center text-xs sm:text-sm">
-            <div className="flex items-center justify-center w-full text-white space-x-4">
-              <div className="flex">
-                <a href="https://twitter.com/kyperneuro" className="hover:text-blue-500">TWITTER</a>
-              </div>
-              <div className="flex">
-                <a href="mailto:hey@kyperneuro.com" className="hover:text-blue-500">CONTACT</a>
-              </div>
+          <div className="flex flex-col text-xs font-semibold text-white mt-auto">
+            <div className="flex">
+              <a href="mailto:hey@kyperneuro.com" className="hover:text-laserblue">hey@kyperneuro.com</a>
             </div>
           </div>
         </div>

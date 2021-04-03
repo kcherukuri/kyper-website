@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['DIN Alternate']
+        'body': ['DIN Alternate']
       },
       colors: {
         background: '#F8F9FB',
         backgroundDark: '#000000',
+        laserblue: '#B4D6F8',
       },
       borderColor: theme => ({
         ...theme('colors'),
@@ -20,13 +21,15 @@ module.exports = {
       }),
       backgroundImage: theme => ({
       'multiverse': "url('/images/multiverse.jpg')",
+      'metaverse': "url('/images/metaverse.png')",
       }),
       scale: {
         '20': '0.20',
       },
       maxWidth: {
+        '1/20': '5%',
         '1/10': '10%',
-        '1/6': '16.67%',
+        '1/5': '20%',
         'deviceheight': '421px',
         'devicewidth': '232.77px',
        },
