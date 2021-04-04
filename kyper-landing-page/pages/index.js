@@ -32,37 +32,26 @@ export default function Home() {
                   The end of the beginning
                 </div> */}
               </div>
-              <div className="mt-3">
+              <div className="mt-4">
                 <div className="text-xl text-white font-medium">
-                  Perfect alignment
+                  <a href="https://www.notion.so/kyper/The-Internet-s-Greatest-Feature-b7670cfb13414af28bd15f0dd44c2063" className="hover:text-laserblue">The Internet's Greatest Feature</a>
                 </div>
               </div>
-              <div className="mt-3">
+              <div className="mt-4">
                 <div className="text-xl text-white font-medium">
-                  Rocket Fuel
+                  <a href="https://www.notion.so/kyper/Listen-to-the-Kids-Bro-848dc7447e52410abfb38b5643958ec2" className="hover:text-laserblue">Listen to the Kids Bro</a>
                 </div>
               </div>
-              <div className="mt-3">
+              <div className="mt-4">
                 <div className="text-xl text-white font-medium">
-                  These are not the same
+                  <a href="https://www.notion.so/kyper/I-m-not-a-businessman-I-m-a-business-man-a47de285c4404429815dc91da69fc55f" className="hover:text-laserblue">I'm not a businessman, I'm a business, man!</a>
                 </div>
               </div>
-              <div className="mt-3">
+              <div className="mt-4">
                 <div className="text-xl text-white font-medium">
-                  I'm a business, man!
+                  <a href="https://www.notion.so/kyper/Metahopping-7b32d2c6485b49b3ace5b7afab73b9b0" className="hover:text-laserblue">Metahopping</a>
                 </div>
               </div>
-              <div className="mt-3">
-                <div className="text-xl text-white font-medium">
-                  NFTs
-                </div>
-              </div>
-              <div className="mt-3">
-                <div className="text-xl text-white font-medium">
-                  Metahopping
-                </div>
-              </div>
-              
             </div>
             <div className="mb-6">
               <div className="text-xs text-laserblue font-sans font-bold">
