@@ -12,14 +12,14 @@ export default function Home() {
         <div className="flex flex-1 flex-col max-w-sm py-8 px-6 h-screen">
           <div className="flex flex-col">
             <img src="/images/kyperlogowhite.png" className="max-w-1/5 mb-8"/>
-            <div className="mb-10">
+            {/* <div className="mb-10">
               <div className="text-xs text-laserblue font-sans font-bold">
                 PRODUCTS
               </div>
               <div className="mt-1 text-xl text-white font-semibold">
                 Verse
               </div>
-            </div>
+            </div> */}
             <div className="mb-10">
               <div className="text-xs text-laserblue font-sans font-bold">
                 THESIS
@@ -53,18 +53,18 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="mb-6">
+            {/* <div className="mb-6">
               <div className="text-xs text-laserblue font-sans font-bold">
                 STORY
               </div>
               <div className="mt-1 text-xl text-white font-medium">
               <a href="https://twitter.com/kiranecherukuri/status/1378178405787648000?s=20" className="hover:text-laserblue">The Story of Verse</a>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-col text-xs font-semibold text-white mt-auto">
             <div className="flex">
-              <a href="mailto:hey@kyperneuro.com" className="hover:text-laserblue">hey@kyperneuro.com</a>
+              <a href="mailto:hey@kyper.xyz" className="hover:text-laserblue">hey@kyper.xyz</a>
             </div>
           </div>
         </div>
